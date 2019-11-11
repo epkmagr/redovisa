@@ -12,6 +12,11 @@
      box-sizing: border-box;
  }
 
+ h1, h2, h3, h4, h5, h6 {
+     margin-top: 12px;
+     margin-bottom: 12px;
+ }
+
 a {
     color: #05053b;
 }
@@ -21,7 +26,11 @@ p {
     margin-bottom: 12px;
 }
 
-figure.figure img {
+ul {
+    margin-bottom: 12px;
+}
+
+figure.right img {
     max-width: 100%;
     display: block;
     border-radius: 50%;
@@ -32,6 +41,7 @@ figure.figure figcaption {
     font-style: italic;
     display: inline;
     caption-side: bottom;
+    text-align: center;
 }
 
 /* Hide submenu, leave this to kmom02 */
@@ -46,7 +56,7 @@ figure.figure figcaption {
 
 /* Container */
 .wrap-all {
-    background-color: #bdccd4ba;
+    background-color: #cae2eeba;
 }
 
 .outer-wrap {
@@ -58,8 +68,13 @@ figure.figure figcaption {
     margin-bottom: 10px;
 }
 
+.row {
+    display: block;
+    width: 100%;
+}
+
 .inner-wrap {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -72,6 +87,10 @@ figure.figure figcaption {
 .row::after {
     overflow: auto;
     clear: both;
+}
+
+.article {
+    margin-right: 30px;
 }
 
 /* Header */
@@ -134,6 +153,28 @@ figure.figure.right p {
     float: center;
 }
 
+.region-main.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 65%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar {
+    float: left;
+    width: 28%;
+}
+
+.wrap-sidebar .block {
+    margin-bottom: 32px;
+}
+
+.wrap-sidebar .block h4 {
+    border-bottom: 1px solid #3c6097;
+    background-image: linear-gradient(to right,#cae2eeba,#3c6097);
+}
+
 /* Byline */
 .region-main .block {
     background-color: white;
@@ -157,17 +198,33 @@ figure.figure.right p {
 
 /* Footer */
 .outer-wrap-footer {
-    background-color: #007;
+    background-color: #3c6097;
     color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    clear: both;
 }
 
+.footer-column, .footer-column-x {
+    height: 100%;
+}
 
-.inner-wrap-footer {
-    padding: 30px 0;
+.footer-column {
+    display: inline;
+    float: left;
+    width: 32%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
 }
 
 .region-footer>.block {
     padding-top: 30px;
     width: 100%;
     text-align: center;
+}
+
+.site-footer {
+    clear: both;
+    text-align: center;
+    padding-bottom: 12px;
 }
