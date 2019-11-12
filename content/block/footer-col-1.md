@@ -1,3 +1,3 @@
-#### Footer col 1
+#### PA1436
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Läs mer om kursen här: PA1436 Teknisk webbdesign och användbarhet [kursbeskrivning på BTH](https://www.bth.se/kurser/P0059/20172/)

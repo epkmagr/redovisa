@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Markdown
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Tips och hjälp med Markdown kan du få här: [guide Markdown](https://www.markdownguide.org/)
