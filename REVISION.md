@@ -22,3 +22,8 @@ v1.0.2 (2019-11-12)
 * Requirement 8 added a testside to test Markdown.
 * Requirement 9 added style in kmom01.css.
 * Requirement 10 added kmom01.css as default stylesheet.
+
+v1.0.3 (2019-11-12)
+-------------------
+
+* Updated info in footer col1-3. Now kmom01 is ready."
