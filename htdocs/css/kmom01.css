@@ -1,8 +1,9 @@
 /*!
- * Stylesheet for design kmom01.
+ * Stylesheet for design kmom01 - default.
  *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
+ * This stylesheet is for the design course and kmom01. The stylesheet is
+ * updated so that the website is useful. The flashbar is blue heather and
+ * the color scheme is blue, white and grey.
  */
 
  /* Poor mans normalize*/
@@ -10,6 +11,10 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+ }
+
+ html {
+     background-color: #cae2eeba;
  }
 
  h1, h2, h3, h4, h5, h6 {
@@ -24,6 +29,8 @@ a {
 p {
     margin-top: 12px;
     margin-bottom: 12px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 ul {
@@ -55,10 +62,6 @@ figure.figure figcaption {
 }
 
 /* Container */
-.wrap-all {
-    background-color: #cae2eeba;
-}
-
 .outer-wrap {
     width: 100%;
 }
@@ -113,10 +116,14 @@ figure.figure figcaption {
     text-decoration: none;
     font-style: italic;
     font-size: 30px;
+    text-shadow: 2px 2px #3c6097;
+    font-weight: bold;
 }
 
 .site-logo-text-icon img {
     margin-top: 5px;
+    transform: rotate(-25deg);
+    border-radius: 10px;
 }
 
 .my-navbar {
@@ -139,9 +146,33 @@ figure.figure figcaption {
     font-weight: bolder;
 }
 
+/* Breadcrumb */
+.breadcrumb-list {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.breadcrumb-list ul {
+    list-style-type: none;
+}
+
+.breadcrumb-list li {
+    display: inline;
+}
+
+.breadcrumb-list li a {
+    text-decoration: none;
+    font-size: 120%;
+}
+
+
+.breadcrumb-list li::after {
+    content: " >> ";
+}
+
 /* Main */
-.inner-wrap-main {
-    padding: 30px 0;
+.inner-wrap {
+    margin-top: 12px;
 }
 
 figure.figure.right {
@@ -153,17 +184,77 @@ figure.figure.right p {
     float: center;
 }
 
+figure.figure.left {
+    float: left;
+    margin-right: 12px;
+}
+
+figure.figure.left img {
+    border-radius: 8px;
+    padding: 3px 3px 1px 3px;
+}
+
 .region-main.has-sidebar-right {
-    display: inline;
     float: left;
     width: 65%;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar {
+.region-main.has-sidebar-left {
     float: left;
-    width: 28%;
+    width: 65%;
+    margin-left: 5%;
+}
+
+.region-sidebar-left, .region-sidebar-right {
+    float: left;
+    width: 20%;
+}
+
+.toc {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.toc .section-header {
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.toc .selected {
+    background-color: #7791b9;
+    font-style: italic;
+}
+
+.blog-toc-next-prev-page::after, .next-previous::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.next-previous {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    font-size: 120%;
+    background-image: linear-gradient(to right,#cae2eeba,#3c6097);
+}
+
+.next-previous .next {
+    float: right;
+    text-align: right;
+    color: white;
+}
+
+.next-previous .next a {
+    color: white;
+}
+
+.next-previous .next, .next-previous .previous {
+    width: 50%;
 }
 
 .wrap-sidebar .block {
@@ -171,7 +262,8 @@ figure.figure.right p {
 }
 
 .wrap-sidebar .block h4 {
-    border-bottom: 1px solid #3c6097;
+    font-size: 120%;
+    border-bottom: 2px solid #3c6097;
     background-image: linear-gradient(to right,#cae2eeba,#3c6097);
 }
 
@@ -181,26 +273,24 @@ figure.figure.right p {
     border: 2px solid #05053b;
     border-radius: 10px;
     overflow: auto;
+    margin-top: 12px;
+    margin-bottom: 16px;
 }
 
-.region-main .byline-me {
+.route-redovisning .region-main .block {
     float: left;
-    margin-right: 20px;
-    width: 60px;
-    border-radius: 8px;
-    padding: 2px;
 }
 
 .region-main .block p {
     font-style: italic;
-    margin-top: 0;
+    margin-right: 12px;
+    margin-left: 12px;
 }
 
 /* Footer */
 .outer-wrap-footer {
     background-color: #3c6097;
     color: white;
-    padding-top: 12px;
     padding-bottom: 12px;
     clear: both;
 }
@@ -212,9 +302,8 @@ figure.figure.right p {
 .footer-column {
     display: inline;
     float: left;
-    width: 32%;
-    margin-left: .52083333%;
-    margin-right: .52083333%;
+    width: 30%;
+    margin-right: 3%;
 }
 
 .region-footer>.block {
@@ -223,8 +312,7 @@ figure.figure.right p {
     text-align: center;
 }
 
-.site-footer {
-    clear: both;
-    text-align: center;
-    padding-bottom: 12px;
+.site-footer p {
+    font-style: italic;
+    margin-top: 70px;
 }
