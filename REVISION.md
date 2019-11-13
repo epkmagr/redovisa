@@ -26,4 +26,9 @@ v1.0.2 (2019-11-12)
 v1.0.3 (2019-11-12)
 -------------------
 
-* Updated info in footer col1-3. Now kmom01 is ready."
+* Updated info in footer col1-3. Now kmom01 is ready.
+
+v1.0.4 (2019-11-13)
+-------------------
+
+* Updated revision file and footer with 2 new links.
