@@ -1,0 +1,50 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: serif;
+@aColor: #05053b;
+@marginTop: 12px;
+@marginBottom: 12px;
+@marginBlockStart: 1em;
+@marginBlockEnd: 1em;
+@bgColorFooter: #3c6097;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: @marginTop;
+    margin-bottom: @marginBottom;
+}
+
+a {
+   color: @aColor;
+}
+
+p {
+    margin-top: @marginTop;
+    margin-bottom: @marginBottom;
+    margin-block-start: @marginBlockStart;
+    margin-block-end: @marginBlockEnd;
+}
+
+ul {
+   margin-bottom: @marginBottom;
+}
+
+img {
+    max-width: 100%;
+}

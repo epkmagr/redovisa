@@ -32,3 +32,8 @@ v1.0.4 (2019-11-13)
 -------------------
 
 * Updated revision file and footer with 2 new links.
+
+v2.0.0 (2019-11-15)
+-------------------
+
+* First draft of kmom02 with all requirements.

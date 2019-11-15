@@ -1,0 +1,52 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+/**
+ * Navbar.
+ */
+@media screen and (max-width: 1000px) {
+    .rm-desktop a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        width: 10%;
+    }
+
+    .region-header-col-2 {
+        width: 80%;
+    }
+
+    .site-logo-text {
+        margin-right: 24px;
+    }
+
+    #rm-menu.rm-clicked {
+        max-width: 180px;
+    }
+
+    #rm-menu.rm-clicked a {
+        font-size: 16px;
+    }
+
+    .rm-max .rm-mobile .rm-submenu-button {
+        max-width: 45px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .rm-desktop {
+        display: none;
+    }
+}

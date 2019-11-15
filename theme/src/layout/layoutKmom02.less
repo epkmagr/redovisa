@@ -1,0 +1,116 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+/* Header */
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header-col-1 {
+    width: 15%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.region-headercol-2 {
+    width: 70%;
+}
+
+.region-header-col-3 {
+    float: left;
+    width: 15%;
+}
+
+.my-navbar li {
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.my-navbar a {
+    padding: 12px 12px 0 12px;;
+    font-size: 24px;
+}
+
+.rm-desktop ul {
+    background-color:  @bgColorHtml;
+}
+
+#rm-menu {
+    background-color: @bgColorFooter;
+}
+
+#rm-menu.rm-clicked{
+    max-width: 250px;
+}
+
+#rm-menu.rm-clicked a {
+    font-size: 24px;
+}
+
+/* Main */
+.region-main {
+    overflow: auto;
+    margin-left: 2%;
+    &.has-sidebar-left {
+        width: 75%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    &.has-sidebar-right {
+        width: 75%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+    width: 17%;
+}
+
+.region-main .block {
+    width: 90%;
+}
+
+.article {
+    margin-right: 12px;
+}
+
+.toc .level-0 {
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.toc .level-2 {
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+/* Figures */
+figure.figure.right {
+    float: right;
+    margin-right: 12px;
+}
+
+figure.figure.left {
+    margin: 4px;
+}
+
+/* Footer */
+.outer-wrap-footer {
+    margin-top: @marginTop;
+}
