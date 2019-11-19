@@ -32,6 +32,14 @@
         margin-right: 24px;
     }
 
+    .my-navbar a {
+        font-size: 20px;
+    }
+
+    .my-navbar a:hover {
+        font-weight: normal;
+    }
+
     #rm-menu.rm-clicked {
         max-width: 180px;
     }
@@ -45,8 +53,12 @@
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
     .rm-desktop {
+        display: none;
+    }
+
+    .region-sidebar-left.has-sidebar-right, .region-sidebar-right.has-sidebar-left {
         display: none;
     }
 }

@@ -37,3 +37,11 @@ v2.0.0 (2019-11-15)
 -------------------
 
 * First draft of kmom02 with all requirements.
+
+v2.0.1 (2019-11-19)
+-------------------
+
+* Added baseKmom02 with mixin and @arguments.
+* Fixed links in footer.
+* Updated reporttext for kmom02.
+* Other small fixes.

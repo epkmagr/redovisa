@@ -66,7 +66,7 @@ Video
 
 Så här kan man länka till en video och inkludera den i artikeln, med eller utan referens till den spellistan som videon kan ingå i.
 
-[YOUTUBE width=700 src=eUBMCd7Tj6Q list=PLKtP9l5q3ce_TF99y6BbUFC0Xzt6Pd9Ts caption="Mikael visar hur man felsöker med en gummianka."]
+[YOUTUBE width=680 src=eUBMCd7Tj6Q list=PLKtP9l5q3ce_TF99y6BbUFC0Xzt6Pd9Ts caption="Mikael visar hur man felsöker med en gummianka."]
 
 
 
