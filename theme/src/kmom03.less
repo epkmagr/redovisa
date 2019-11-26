@@ -34,13 +34,10 @@
 //@import "base/baseKmom02.less";
 @import "base/baseKmom03.less";
 
-
 /**
  * Import the vertical grid.
  */
 @import "@desinax/vertical-grid/less/grid.less";
-@import "layout/vgrid.less";
-@import "layout/hgrid.less";
 
 /**
  * Import the typographic grid.
@@ -52,10 +49,9 @@
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
-// @import "layout/layout.less";
-// @import "layout/layoutKmom02.less";
 @import "layout/responsive.less";
 @import "layout/regions.less";     // To add style for ?regions
+@import "layout/vgrid.less";
 
 /**
  * My own settings, not currently in their own module.
@@ -71,5 +67,5 @@
 
  // Default font-families. From typography-defaults.less
  @fontFamilyHeadings: "serif";
- @fontFamilyBody:     "san-serif";
+ @fontFamilyBody:     @fontFamilyVerdana;
  @fontFamilyCode:     "monospace";

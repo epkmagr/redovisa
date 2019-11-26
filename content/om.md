@@ -24,14 +24,14 @@ Kursen syftar till en orientering inom områdena design och användbarhet, speci
 Kursen omfattar följande områden
 ---------------------------------
 
-* Färglära och färgsättning av en webbplats
-* Typografi
-* Lagar och regler kring webbplatser
-* Anpassa webbplats för funktionshindrade
-* CSS-konstruktioner för style med CSS/LESS/SASS
-* Grid-baserad layout, horisontell och vertikal
-* Bygga tema till webbplats
-* Använda PHP-ramverk för att skapa och designa webbplats
-* Sökmotoroptimering
+<i class="fas fa-check fa-sm"></i> Färglära och färgsättning av en webbplats  
+<i class="fas fa-check fa-sm"></i> Typografi  
+<i class="fas fa-check fa-sm"></i> Lagar och regler kring webbplatser  
+<i class="fas fa-check fa-sm"></i> Anpassa webbplats för funktionshindrade  
+<i class="fas fa-check fa-sm"></i> CSS-konstruktioner för style med CSS/LESS/SASS  
+<i class="fas fa-check fa-sm"></i> Grid-baserad layout, horisontell och vertikal  
+<i class="fas fa-check fa-sm"></i> Bygga tema till webbplats  
+<i class="fas fa-check fa-sm"></i> Använda PHP-ramverk för att skapa och designa webbplats  
+<i class="fas fa-check fa-sm"></i> Sökmotoroptimering  
 
 [FIGURE src=image/house-before-after.jpg?w=600 caption="Ett hus före och efter renovring - samma insida men snyggare fasad. Lite som att styla en hemsida, samma insida men utsidan kan göras snyggare och ändras efter tycke och smak!"]
