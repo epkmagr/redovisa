@@ -46,11 +46,17 @@
     background-color: @bgColorBody;
 }
 
+.outer-wrap.outer-wrap-main,
+.outer-wrap.outer-wrap-footer {
+    padding: 0 6px;
+}
+
 .region-main {
-    #desinax-vgrid.column(@columns * 3/4);
+    #desinax-vgrid.column(@columns - 4);
     #desinax-vgrid.push(2);
 
     &.has-sidebar {
+        #desinax-vgrid.column(@columns * 3/4);
         #desinax-vgrid.push(0);
 
     }
@@ -124,6 +130,12 @@
     font-style: italic;
 }
 
+.blog-toc-next-prev-page::after, .next-previous::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .next-previous {
     overflow: auto;
     font-size: 120%;
@@ -137,6 +149,9 @@
 
 .next-previous .next {
     float: right;
+}
+
+.next-previous .next a {
     color: white;
 }
 
@@ -239,8 +254,8 @@
 }
 
 /* Flash */
-.region-flash {
-    #desinax-vgrid.grid(@columns);
+.region-flash img {
+    #desinax-vgrid.column(@columns);
 }
 
 /* Byline */
@@ -295,4 +310,149 @@ figure.figure.right {
 
 figure.figure.left img {
     border-radius: 8px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1100px) {
+    .rm-desktop a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .route-om .region-main img,
+    .route-verktyg-markdown .region-main img,
+    iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns / 5);
+    }
+
+    .region-header-col-2 {
+        #desinax-vgrid.column(@columns * 4 / 5);
+    }
+
+    .region-header-col-1 {
+        float: left;
+    }
+
+    .site-logo-text {
+        margin-right: 20px;
+    }
+
+    .my-navbar a {
+        font-size: 20px;
+    }
+
+    .my-navbar a:hover {
+        font-weight: normal;
+    }
+
+    #rm-menu.rm-clicked a {
+        font-size: 1em;
+    }
+
+    .region-main,
+    .region-main.has-sidebar-left,
+    .region-main.has-sidebar-right,
+    .region-main.has-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-right,
+    .region-sidebar-left,
+    .wrap-sidebar.region-sidebar-right.has-sidebar-left,
+    .wrap-sidebar.region-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.push(0);
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns / 6);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .rm-desktop {
+        display: none;
+    }
+
+    .region-header-col-1,
+    .region-header-col-3 {
+        #desinax-vgrid.column(@columns / 2);
+    }
+
+
+    .rm-small-wrapper {
+        font-size: 200%;
+    }
+}
+
+    /**
+ * responsive testat mot min Samsung Galaxy S5 mini
+ */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 120%;
+    }
+
+    .next-previous {
+        font-size: 90%;
+        padding-right: 6px;
+        #desinax-vgrid.column(@columns);
+        margin-bottom: 12px;
+        margin-top: 0;
+    }
+
+    .breadcrumb-list li a {
+        margin-bottom: 0;
+    }
+
+    figure.figure.right img,
+    iframe {
+        width: 100%;
+    }
+
+    figure.route-om.figure img {
+        width: 450px;
+    }
+
+    .figure.left {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    figure.figure figcaption {
+        font-size: 90%;
+        width: 90%;
+    }
+
+    .region-main .block p {
+        font-size: 90%;
+    }
+
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .footer-column p {
+        font-size: 120%;
+    }
+
+    .site-footer p {
+        margin-top: 24px;
+        font-size: 120%;
+    }
+
+    .toc .selected {
+        background-color: unset;
+    }
+
 }

@@ -46,10 +46,19 @@ v2.0.1 (2019-11-19)
 * Updated reporttext for kmom02.
 * Other small fixes.
 
-v3.0.0 (2019-11-120)
+v3.0.0 (2019-11-20)
 -------------------
 
 * Added kmom03.less and baseKmom03.less.
 * Added vgrid.less. Removed layout from kmom01 and kmom02.
 * Made it possible to run ?vgrid and ?hgrid.
 * Basic grid styling done.
+
+v3.0.1 (2019-11-27)
+-------------------
+
+* Added responsiveness for my Samsung S5 mini.
+* Added some padding and adjusted responsiveness.
+* Changed footer styling
+* Changed back to dots instead of Font awesome icons in the om page.
+* Updated the report text for kmom03.
