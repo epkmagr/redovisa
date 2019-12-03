@@ -62,3 +62,11 @@ v3.0.1 (2019-11-27)
 * Changed footer styling
 * Changed back to dots instead of Font awesome icons in the om page.
 * Updated the report text for kmom03.
+
+v4.0.0 (2019-12-02)
+-------------------
+
+* Added kmom04 report text.
+* Added minimalistic theme.
+* Added colorful theme.
+* Added dark theme.

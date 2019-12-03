@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom03 using grid.
+ * Stylesheet for design kmom04 using minimalistic colors.
  *
  * This stylesheet is for the design course and kmom03 where we use grids.
  * Both horizontal and vertical grids.
@@ -53,26 +53,7 @@
 @import "layout/regions.less";     // To add style for ?regions
 @import "layout/vgrid.less";
 
-/**
- * My own settings, not currently in their own module.
+ /**
+ * Import the minimalistic thene
  */
- @bgColorHtml: #cae2eeba;
- @bgColorBody: #cae2eeba;
- @aColor: #05053b;
- @bgColorFooter: #3c6097;
-
- @infoColor: #205791;
- @infoBackgroundColor: #d5edf8;
- @infoBorderColor: #92cae4;
- @warningColor: #3f3f0e;
- @warningBackgroundColor: #ededab;
- @warningBorderColor: #d1d12e;
-
- // Magic number and base fontsize. From typography-defaults.less
- @magicNumber:  24px;  // 22px
- @fontSizeBody: 16px;
-
- // Default font-families. From typography-defaults.less
- @fontFamilyHeadings: "serif";
- @fontFamilyBody:     @fontFamilyVerdana;
- @fontFamilyCode:     "monospace";
+ @import "module/minimalistic.less";

@@ -1,0 +1,85 @@
+// Default font-families. From typography-defaults.less
+@fontFamilyHeadings: "serif";
+@fontFamilyBody:     @fontFamilyVerdana;
+@fontFamilyCode:     "monospace";
+
+/**
+ * My own minimalistic settings.
+ * Colors from https://color.adobe.com/create# with shades of #cae2eeba
+ */
+@bgColorHtml: #cae2eeba;
+@bgColorBody: #cae2eeba;
+@colorBody: #5d686e;
+
+@aColor: #a35b53;
+@bgColorFooter: #3c6097;
+@colorBoxShadow: @aColor;
+@nextColor: #53631e;
+@prevColor: #c0e34f;
+@bylineColor: #d19e99; // #d18b84
+
+@infoBackgroundColor: @bgColorBody;
+@infoBorderColor: @bgColorFooter;
+
+// Magic number and base fontsize. From typography-defaults.less
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+.region-header,
+.region-flash,
+.region-footer {
+    border-top: 5px solid @prevColor;
+}
+
+.rm-small-wrapper {
+    font-size: 200%;
+    color: @aColor;
+}
+
+.breadcrumb-list ul {
+    border-bottom: 5px groove @aColor;
+}
+
+.next-previous {
+    background-image: linear-gradient(to right, @prevColor, @nextColor);
+}
+
+.next-previous .prev a {
+    color: @nextColor;
+}
+
+.next-previous .next a {
+    color: @prevColor;
+}
+
+.wrap-sidebar .block h4 {
+    border-bottom: 2px solid @nextColor;
+    background-image: linear-gradient(to right, @prevColor, @nextColor);
+}
+
+.toc .selected {
+    background-color: @prevColor;
+    opacity: 0.7;
+}
+
+.region-main .block {
+    background-color: @bylineColor;
+}
+
+.region-footer a,
+.region-footer i,
+.region-footer p {
+    color: @prevColor;
+}
+
+.region-footer h5 {
+    color: @prevColor;
+    border-bottom: 1px solid @prevColor;
+}
+
+/* Color Theme Swatches in Hex from Adobe Color */
+@My-Colorful-Theme-1-hex: #162B4A;
+@My-Colorful-Theme-2-hex: #A35B52;
+@My-Colorful-Theme-3-hex: #3C6096;
+@My-Colorful-Theme-4-hex: #53631E;
+@My-Colorful-Theme-5-hex: #C0E34F;

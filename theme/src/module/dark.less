@@ -1,0 +1,99 @@
+// Default font-families. From typography-defaults.less
+@fontFamilyHeadings: "serif";
+@fontFamilyBody:     @fontFamilyVerdana;
+@fontFamilyCode:     "monospace";
+
+/**
+ * My own minimalistic settings.
+ * Colors from https://color.adobe.com/create# with shades of #cae2eeba
+ */
+@bgColorHtml: #101e26;
+@bgColorBody: #101e26;
+@colorBody: #5d84a6;
+@textColor: #5d84a6;
+@aColor: #f2f2f2;
+
+@bgColorFooter: #325573;
+@colorBoxShadow: #5D84A6;
+
+// Magic number and base fontsize. From typography-defaults.less
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+.rm-small-wrapper {
+    font-size: 200%;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, ul,
+.stylechooser,
+.rm-small-wrapper,
+.region-footer a,
+.breadcrumb-list li::after,
+.next-previous .previous,
+.rm-desktop li a,
+.rm-desktop li a:hover {
+    color: @textColor;
+}
+
+.next-previous .next a {
+    color: @bgColorHtml;
+}
+
+.stylechooser fieldset {
+    border: 2px groove @textColor;
+}
+
+.toc li:hover {
+    color: @textColor;
+}
+
+.toc .selected {
+    background-color: @textColor;
+    opacity: 0.5;
+}
+
+.toc .selected a {
+    color: @bgColorHtml;
+}
+
+.footer-column i {
+    font-size: 120%;
+}
+
+.site-logo-text a {
+    text-shadow: 2px 2px @aColor;
+}
+
+.region-main .block {
+    background-color: @textColor;
+    border: 5px groove @aColor;
+}
+
+.region-main .block p {
+    color: @bgColorHtml;
+}
+
+.outer-wrap-footer {
+    background-image: linear-gradient(to bottom, @bgColorHtml, @bgColorFooter, @bgColorHtml);
+}
+
+.region-footer h5 {
+    border-bottom: 1px solid @textColor;
+}
+
+#rm-menu {
+    background-color: @bgColorHtml;
+    border-left: 8px groove @textColor;
+}
+
+#rm-menu.rm-clicked a,
+.rm-max .rm-small .rm-button.rm-clicked {
+    color: @textColor;
+}
+
+/* Color Theme Swatches in Hex from Adobe Color */
+@blueHeatherSquare-1-hex: #325573;
+@blueHeatherSquare-2-hex: #5D84A6;
+@blueHeatherSquare-3-hex: #101E26;
+@blueHeatherSquare-4-hex: #89BAD9;
+@blueHeatherSquare-5-hex: #F2F2F2;
