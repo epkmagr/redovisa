@@ -89,6 +89,66 @@ h1, h2, h3 {
     border-bottom: 1px solid @prevColor;
 }
 
+h1, h2, h3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow: hidden;
+}
+
+.breadcrumb-list {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 2;
+  overflow: hidden;
+}
+
+.toc {
+    animation-duration: 3s;
+    animation-name: slideup;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.outer-wrap-footer {
+    background: linear-gradient(-45deg, @prevColor, @bgColorFooter, @nextColor);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slideup {
+    from {
+      margin-bottom: 0%;
+    }
+
+    to {
+      margin-bottom: 100%;
+    }
+}
+
 /* Color Theme Swatches in Hex from Adobe Color CC */
 @My-Colorful-Theme-1-hex: #162b4a;
 @My-Colorful-Theme-2-hex: #a35b52;

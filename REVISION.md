@@ -70,3 +70,13 @@ v4.0.0 (2019-12-02)
 * Added minimalistic theme.
 * Added colorful theme.
 * Added dark theme.
+
+v4.0.1 (2019-12-5)
+-------------------
+
+* Typography for each theme.
+* Added the dark theme as my default theme.
+* Updated the dark theme.
+* Added a fun theme with some animations.
+* Updated basekmom03 for the snapshots in the report
+* Added the report about evaluation of websites

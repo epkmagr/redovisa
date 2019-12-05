@@ -63,5 +63,19 @@ return [
             "url" => "test",
             "title" => "Test av markdown.",
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter från kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Tre webbplatser",
+                        "url" => "rapport/fargschema",
+                        "title" => "Utvärdering av tre webbplatsers färgval och känsla.",
+                    ],
+                ],
+            ],
+        ],
     ],
 ];

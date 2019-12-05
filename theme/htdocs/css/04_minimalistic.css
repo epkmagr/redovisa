@@ -5271,6 +5271,12 @@ h3 {
   box-shadow: 1px 2px 10px #b4c9d4;
   padding: 2px 2px 2px 6px;
 }
+h4 {
+  border-bottom: 2px solid #b4c9d4;
+}
+table tr {
+  border-bottom: 1px solid #b4c9d4;
+}
 .info,
 .warning {
   padding: 0.5em;
@@ -5279,7 +5285,7 @@ h3 {
 .info {
   border: 2px solid #b4c9d4;
   color: #205791;
-  background: #cae2eeba;
+  background: #cae1ed;
 }
 .warning {
   border: 2px solid #d1d12e;
@@ -5297,6 +5303,9 @@ h3 {
 .region-footer a:active {
   text-decoration: underline;
 }
+/* Color Theme Swatches in Hex for the website evaluation report */
+/* Color Theme Swatches in Hex for the website evaluation report  */
+/* Color Theme Swatches in Hex for the website evaluation report  */
 /**
  * Import the vertical grid.
  */
@@ -5503,7 +5512,7 @@ h3 {
 }
 /* Main */
 .wrap-all {
-  background-color: #cae2eeba;
+  background-color: #cae1ed;
 }
 .outer-wrap.outer-wrap-main,
 .outer-wrap.outer-wrap-footer {
@@ -5603,7 +5612,7 @@ h3 {
 .next-previous {
   overflow: auto;
   font-size: 120%;
-  background-image: linear-gradient(to right, #cae2eeba, #b4c9d4);
+  background-image: linear-gradient(to right, #cae1ed, #b4c9d4);
   margin-bottom: 12px;
 }
 .next-previous .previous {
@@ -5617,7 +5626,7 @@ h3 {
 }
 .wrap-sidebar .block h4 {
   border-bottom: 2px solid #b4c9d4;
-  background-image: linear-gradient(to right, #cae2eeba, #b4c9d4);
+  background-image: linear-gradient(to right, #cae1ed, #b4c9d4);
 }
 /* Header */
 .inner-wrap-header {
@@ -5682,7 +5691,7 @@ h3 {
   font-weight: bolder;
 }
 .rm-desktop ul {
-  background-color: #cae2eeba;
+  background-color: #cae1ed;
 }
 #rm-menu {
   background-color: #b4c9d4;
@@ -5768,6 +5777,13 @@ figure.figure.right {
 }
 figure.figure.left img {
   border-radius: 8px;
+}
+.route-rapport-fargschema .region-main img {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /* Responsiveness */
 @media screen and (max-width: 1100px) {
@@ -5926,7 +5942,7 @@ figure.figure.left img {
  */
 /**
  * My own minimalistic settings.
- * Colors from https://color.adobe.com/create# with shades of #cae2eeba
+ * Colors from https://color.adobe.com/create# with shades of @04_minimalistic-3-hex
  */
 .next-previous .next a,
 .next-previous .previous a,
@@ -5938,5 +5954,6 @@ figure.figure.left img {
   background-color: #b4c9d4;
 }
 .region-main .block {
-  background-color: #cae2eeba;
+  background-color: #cae1ed;
 }
+/* Color Theme Swatches in Hex from Adobe Color CC */

@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04 using colors.
+ * Stylesheet for design kmom04 having some fun.
  *
  * This stylesheet is for the design course and kmom03 where we use grids.
  * Both horizontal and vertical grids.
@@ -4972,7 +4972,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style for kmom03 to affect HTML elements on a general scale.
  */
 body {
-  font: 16px/1.5 Verdana, Geneva, sans-serif;
+  font: 16px/1.5 "Bree Serif", serif;
 }
 h1,
 h2,
@@ -5259,17 +5259,23 @@ hr::after {
   background-color: #fff;
 }
 h1 {
-  -webkit-box-shadow: 2px 5px 10px #3c6097;
-  -mox-box-shadow: 2px 5px 10px #3c6097;
-  box-shadow: 2px 5px 10px #3c6097;
+  -webkit-box-shadow: 2px 5px 10px #a35b52;
+  -mox-box-shadow: 2px 5px 10px #a35b52;
+  box-shadow: 2px 5px 10px #a35b52;
   padding: 2px 2px 2px 6px;
 }
 h2,
 h3 {
-  -webkit-box-shadow: 1px 2px 10px #3c6097;
-  -mox-box-shadow: 1px 2px 10px #3c6097;
-  box-shadow: 1px 2px 10px #3c6097;
+  -webkit-box-shadow: 1px 2px 10px #a35b52;
+  -mox-box-shadow: 1px 2px 10px #a35b52;
+  box-shadow: 1px 2px 10px #a35b52;
   padding: 2px 2px 2px 6px;
+}
+h4 {
+  border-bottom: 2px solid #a35b52;
+}
+table tr {
+  border-bottom: 1px solid #a35b52;
 }
 .info,
 .warning {
@@ -5277,9 +5283,9 @@ h3 {
   margin-bottom: 20px;
 }
 .info {
-  border: 2px solid #92cae4;
+  border: 2px solid #3c6096;
   color: #205791;
-  background: #d5edf8;
+  background: #9fbae3;
 }
 .warning {
   border: 2px solid #d1d12e;
@@ -5297,6 +5303,9 @@ h3 {
 .region-footer a:active {
   text-decoration: underline;
 }
+/* Color Theme Swatches in Hex for the website evaluation report */
+/* Color Theme Swatches in Hex for the website evaluation report  */
+/* Color Theme Swatches in Hex for the website evaluation report  */
 /**
  * Import the vertical grid.
  */
@@ -5503,7 +5512,7 @@ h3 {
 }
 /* Main */
 .wrap-all {
-  background-color: #cae2eeba;
+  background-color: #9fbae3;
 }
 .outer-wrap.outer-wrap-main,
 .outer-wrap.outer-wrap-footer {
@@ -5603,7 +5612,7 @@ h3 {
 .next-previous {
   overflow: auto;
   font-size: 120%;
-  background-image: linear-gradient(to right, #cae2eeba, #3c6097);
+  background-image: linear-gradient(to right, #9fbae3, #3c6096);
   margin-bottom: 12px;
 }
 .next-previous .previous {
@@ -5616,8 +5625,8 @@ h3 {
   color: white;
 }
 .wrap-sidebar .block h4 {
-  border-bottom: 2px solid #3c6097;
-  background-image: linear-gradient(to right, #cae2eeba, #3c6097);
+  border-bottom: 2px solid #3c6096;
+  background-image: linear-gradient(to right, #9fbae3, #3c6096);
 }
 /* Header */
 .inner-wrap-header {
@@ -5635,7 +5644,7 @@ h3 {
   text-decoration: none;
   font-style: italic;
   font-size: 30px;
-  text-shadow: 2px 2px #3c6097;
+  text-shadow: 2px 2px #3c6096;
   font-weight: bold;
 }
 .site-logo-text-icon img {
@@ -5682,10 +5691,10 @@ h3 {
   font-weight: bolder;
 }
 .rm-desktop ul {
-  background-color: #cae2eeba;
+  background-color: #9fbae3;
 }
 #rm-menu {
-  background-color: #3c6097;
+  background-color: #3c6096;
 }
 #rm-menu.rm-clicked a {
   font-size: 24px;
@@ -5720,7 +5729,7 @@ h3 {
 /* Byline */
 .region-main .block {
   background-color: white;
-  border: 2px solid #05053b;
+  border: 2px solid #a35b52;
   border-radius: 10px;
   margin-bottom: 12px;
 }
@@ -5729,7 +5738,7 @@ h3 {
 }
 /* Footer */
 .outer-wrap-footer {
-  background-color: #3c6097;
+  background-color: #3c6096;
   color: white;
   clear: both;
 }
@@ -5768,6 +5777,13 @@ figure.figure.right {
 }
 figure.figure.left img {
   border-radius: 8px;
+}
+.route-rapport-fargschema .region-main img {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /* Responsiveness */
 @media screen and (max-width: 1100px) {
@@ -5922,5 +5938,128 @@ figure.figure.left img {
   }
 }
 /**
- * My own settings, not currently in their own module.
+ * Import the colorful theme
  */
+@font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v7/Yq6R-LCAWCX3-6Ky7FAFrOF6lw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bree Serif Regular'), local('BreeSerif-Regular'), url(https://fonts.gstatic.com/s/breeserif/v9/4UaHrEJCrhhnVA3DgluA96rp4g.ttf) format('truetype');
+}
+/**
+ * My own colorful settings.
+ * Colors from https://color.adobe.com/create# with triad from @My-Colorful-Theme-3-hex
+ */
+.region-header,
+.region-flash,
+.region-footer {
+  border-top: 5px solid #c0e34f;
+}
+h1,
+h2,
+h3 {
+  background-color: #d19e99;
+}
+.rm-small-wrapper {
+  font-size: 200%;
+  color: #a35b52;
+}
+.breadcrumb-list ul {
+  border-bottom: 5px groove #a35b52;
+}
+.next-previous {
+  background-image: linear-gradient(to right, #c0e34f, #53631e);
+}
+.next-previous .prev a {
+  color: #53631e;
+}
+.next-previous .next a,
+.next-previous .next p {
+  color: #c0e34f;
+}
+.wrap-sidebar .block h4 {
+  border-bottom: 2px solid #53631e;
+  background-image: linear-gradient(to right, #c0e34f, #53631e);
+}
+.toc .selected {
+  background-color: #c0e34f;
+  opacity: 0.7;
+}
+.region-main .block {
+  background-color: #d19e99;
+}
+.region-footer a,
+.region-footer i,
+.region-footer p {
+  color: #c0e34f;
+}
+.region-footer h5 {
+  color: #c0e34f;
+  border-bottom: 1px solid #c0e34f;
+}
+h1,
+h2,
+h3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow: hidden;
+}
+.breadcrumb-list {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 2;
+  overflow: hidden;
+}
+.toc {
+  animation-duration: 3s;
+  animation-name: slideup;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.outer-wrap-footer {
+  background: linear-gradient(-45deg, #c0e34f, #3c6096, #53631e);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slideup {
+  from {
+    margin-bottom: 0%;
+  }
+  to {
+    margin-bottom: 100%;
+  }
+}
+/* Color Theme Swatches in Hex from Adobe Color CC */
