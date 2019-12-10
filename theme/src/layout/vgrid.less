@@ -42,6 +42,14 @@
 
 
 /* Main */
+.region-header,
+.region-flash,
+.inner-wrap-header .row,
+.inner-wrap-flash .row {
+    margin: 0;
+    width: 100%;
+}
+
 .wrap-all {
     background-color: @bgColorBody;
 }
@@ -191,14 +199,17 @@
     #desinax-vgrid.column(4);
     margin-top: 6px;
     margin-bottom: 6px;
+    overflow: hidden;
 }
 
 .region-headercol-2 {
     #desinax-vgrid.column(16);
+    overflow: hidden;
 }
 
 .region-header-col-3 {
     #desinax-vgrid.column(4);
+    overflow: hidden;
 }
 
 .my-navbar {
@@ -318,7 +329,7 @@ figure.figure.left img {
 }
 
 /* Responsiveness */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1140px) {
     .rm-desktop a {
         padding-left: 0;
         padding-right: 0;
@@ -329,16 +340,16 @@ figure.figure.left img {
     iframe {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 850px) {
     .region-header-col-1,
     .region-header-col-3 {
         #desinax-vgrid.column(@columns / 5);
+        overflow: hidden;
     }
 
     .region-header-col-2 {
         #desinax-vgrid.column(@columns * 4 / 5);
+        overflow: hidden;
     }
 
     .region-header-col-1 {
@@ -346,11 +357,11 @@ figure.figure.left img {
     }
 
     .site-logo-text {
-        margin-right: 20px;
+        margin-right: 22px;
     }
 
     .my-navbar a {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .my-navbar a:hover {
@@ -377,14 +388,15 @@ figure.figure.left img {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 990px) {
     .region-header-col-1,
     .region-header-col-3 {
         #desinax-vgrid.column(@columns / 6);
+        overflow: hidden;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 890px) {
     .rm-desktop {
         display: none;
     }
@@ -392,12 +404,22 @@ figure.figure.left img {
     .region-header-col-1,
     .region-header-col-3 {
         #desinax-vgrid.column(@columns / 2);
+        overflow: hidden;
     }
 
 
     .rm-small-wrapper {
         font-size: 200%;
     }
+
+    .my-navbar a {
+        font-size: 20px;
+    }
+
+    .site-logo-text {
+        margin-right: 20px;
+    }
+
 }
 
     /**

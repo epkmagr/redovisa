@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom03 using grid.
+ * Stylesheet for design kmom05 playing aroung with images.
  *
  * This stylesheet is for the design course and kmom03 where we use grids.
  * Both horizontal and vertical grids.
@@ -4972,7 +4972,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style for kmom03 to affect HTML elements on a general scale.
  */
 body {
-  font: 16px/1.5 Verdana, Geneva, sans-serif;
+  font: 16px/1.5 "Lora", serif;
 }
 h1,
 h2,
@@ -5259,23 +5259,23 @@ hr::after {
   background-color: #fff;
 }
 h1 {
-  -webkit-box-shadow: 2px 5px 10px #3c6097;
-  -mox-box-shadow: 2px 5px 10px #3c6097;
-  box-shadow: 2px 5px 10px #3c6097;
+  -webkit-box-shadow: 2px 5px 10px #89bad9;
+  -mox-box-shadow: 2px 5px 10px #89bad9;
+  box-shadow: 2px 5px 10px #89bad9;
   padding: 2px 2px 2px 6px;
 }
 h2,
 h3 {
-  -webkit-box-shadow: 1px 2px 10px #3c6097;
-  -mox-box-shadow: 1px 2px 10px #3c6097;
-  box-shadow: 1px 2px 10px #3c6097;
+  -webkit-box-shadow: 1px 2px 10px #89bad9;
+  -mox-box-shadow: 1px 2px 10px #89bad9;
+  box-shadow: 1px 2px 10px #89bad9;
   padding: 2px 2px 2px 6px;
 }
 h4 {
-  border-bottom: 2px solid #3c6097;
+  border-bottom: 2px solid #89bad9;
 }
 table tr {
-  border-bottom: 1px solid #3c6097;
+  border-bottom: 1px solid #89bad9;
 }
 .info,
 .warning {
@@ -5519,7 +5519,7 @@ table tr {
   width: 100%;
 }
 .wrap-all {
-  background-color: #cae2eeba;
+  background-color: #101e26;
 }
 .outer-wrap.outer-wrap-main,
 .outer-wrap.outer-wrap-footer {
@@ -5619,7 +5619,7 @@ table tr {
 .next-previous {
   overflow: auto;
   font-size: 120%;
-  background-image: linear-gradient(to right, #cae2eeba, #3c6097);
+  background-image: linear-gradient(to right, #101e26, #325573);
   margin-bottom: 12px;
 }
 .next-previous .previous {
@@ -5632,8 +5632,8 @@ table tr {
   color: white;
 }
 .wrap-sidebar .block h4 {
-  border-bottom: 2px solid #3c6097;
-  background-image: linear-gradient(to right, #cae2eeba, #3c6097);
+  border-bottom: 2px solid #325573;
+  background-image: linear-gradient(to right, #101e26, #325573);
 }
 /* Header */
 .inner-wrap-header {
@@ -5651,7 +5651,7 @@ table tr {
   text-decoration: none;
   font-style: italic;
   font-size: 30px;
-  text-shadow: 2px 2px #3c6097;
+  text-shadow: 2px 2px #325573;
   font-weight: bold;
 }
 .site-logo-text-icon img {
@@ -5701,10 +5701,10 @@ table tr {
   font-weight: bolder;
 }
 .rm-desktop ul {
-  background-color: #cae2eeba;
+  background-color: #101e26;
 }
 #rm-menu {
-  background-color: #3c6097;
+  background-color: #325573;
 }
 #rm-menu.rm-clicked a {
   font-size: 24px;
@@ -5739,7 +5739,7 @@ table tr {
 /* Byline */
 .region-main .block {
   background-color: white;
-  border: 2px solid #05053b;
+  border: 2px solid #f2f2f2;
   border-radius: 10px;
   margin-bottom: 12px;
 }
@@ -5748,7 +5748,7 @@ table tr {
 }
 /* Footer */
 .outer-wrap-footer {
-  background-color: #3c6097;
+  background-color: #325573;
   color: white;
   clear: both;
 }
@@ -5956,5 +5956,346 @@ figure.figure.left img {
   }
 }
 /**
- * My own settings, not currently in their own module.
+ * Figure and figcaption for images and other media using figure/figcaption
  */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+/**
+ * Import the kmom05 theme, improved speed and images
+ */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v14/0QIvMX1D_JOuMwr7Jg.ttf) format('truetype');
+}
+/**
+ * My own dark settings.
+ * Colors from https://color.adobe.com/create# see in the bottom of this file
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+@media screen and (max-width: 733px) {
+  .left.w50,
+  .right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .left.w50 img,
+  .right.w50 img {
+    width: 733.33333333px;
+  }
+}
+.rm-small-wrapper {
+  font-size: 200%;
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+.stylechooser,
+.rm-small-wrapper,
+.region-footer a,
+.breadcrumb-list li::after,
+.next-previous .previous,
+th,
+td,
+li a,
+ol,
+.rm-desktop li a,
+.rm-desktop li a:hover {
+  color: #89bad9;
+}
+.next-previous .next a {
+  color: #101e26;
+}
+thead {
+  box-shadow: 0 1px 0 #89bad9;
+}
+tr:hover {
+  background-color: #f2f2f2;
+}
+.stylechooser fieldset {
+  border: 2px groove #89bad9;
+}
+.toc li:hover {
+  color: #89bad9;
+}
+.toc .selected {
+  background-color: #89bad9;
+  opacity: 0.5;
+}
+.toc .selected a {
+  color: #101e26;
+}
+.footer-column i {
+  font-size: 120%;
+}
+.site-logo-text a {
+  text-shadow: 2px 2px #f2f2f2;
+}
+.region-main .block {
+  background-color: #89bad9;
+  border: 5px groove #f2f2f2;
+}
+.region-main .block p {
+  color: #101e26;
+}
+.route- .figure.right img {
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #89bad9;
+}
+.route-om .region-main .figure img {
+  border: 5px solid white;
+}
+.figure.left.byline {
+  margin-right: 0.5em;
+  margin-bottom: unset;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+.outer-wrap-footer {
+  background-image: linear-gradient(to bottom, #101e26, #325573, #101e26);
+}
+.region-footer h5 {
+  border-bottom: 1px solid #89bad9;
+}
+#rm-menu {
+  background-color: #101e26;
+  border-left: 8px groove #89bad9;
+}
+#rm-menu.rm-clicked a,
+.rm-max .rm-small .rm-button.rm-clicked {
+  color: #89bad9;
+}
+/* Color Theme Swatches in Hex from Adobe Color CC */

@@ -80,3 +80,13 @@ v4.0.1 (2019-12-5)
 * Added a fun theme with some animations.
 * Updated basekmom03 for the snapshots in the report
 * Added the report about evaluation of websites
+
+v5.0.0 (2019-12-?)
+-------------------
+
+* Updated responsiveness in horizontal navbar.
+* Removed horizontal scroll.
+* Added first draft of report with downloading times.
+* Added kmom05.less and made it default.
+* Added desinax-figure.
+* Added first draft of the blogg.

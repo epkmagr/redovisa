@@ -5511,6 +5511,13 @@ table tr {
   background-image: url("../img/theme/magic-number-24.png");
 }
 /* Main */
+.region-header,
+.region-flash,
+.inner-wrap-header .row,
+.inner-wrap-flash .row {
+  margin: 0;
+  width: 100%;
+}
 .wrap-all {
   background-color: #9fbae3;
 }
@@ -5660,6 +5667,7 @@ table tr {
   margin-right: 0.52083333%;
   margin-top: 6px;
   margin-bottom: 6px;
+  overflow: hidden;
 }
 .region-headercol-2 {
   display: inline;
@@ -5667,6 +5675,7 @@ table tr {
   width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  overflow: hidden;
 }
 .region-header-col-3 {
   display: inline;
@@ -5674,6 +5683,7 @@ table tr {
   width: 15.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  overflow: hidden;
 }
 .my-navbar {
   list-style-type: none;
@@ -5786,7 +5796,7 @@ figure.figure.left img {
   margin-right: 0.52083333%;
 }
 /* Responsiveness */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1140px) {
   .rm-desktop a {
     padding-left: 0;
     padding-right: 0;
@@ -5796,8 +5806,6 @@ figure.figure.left img {
   iframe {
     width: 100%;
   }
-}
-@media screen and (max-width: 850px) {
   .region-header-col-1,
   .region-header-col-3 {
     display: inline;
@@ -5805,6 +5813,7 @@ figure.figure.left img {
     width: 18.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    overflow: hidden;
   }
   .region-header-col-2 {
     display: inline;
@@ -5812,15 +5821,16 @@ figure.figure.left img {
     width: 78.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    overflow: hidden;
   }
   .region-header-col-1 {
     float: left;
   }
   .site-logo-text {
-    margin-right: 20px;
+    margin-right: 22px;
   }
   .my-navbar a {
-    font-size: 20px;
+    font-size: 22px;
   }
   .my-navbar a:hover {
     font-weight: normal;
@@ -5849,7 +5859,7 @@ figure.figure.left img {
     margin-right: 0.52083333%;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 990px) {
   .region-header-col-1,
   .region-header-col-3 {
     display: inline;
@@ -5857,9 +5867,10 @@ figure.figure.left img {
     width: 15.625%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    overflow: hidden;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 890px) {
   .rm-desktop {
     display: none;
   }
@@ -5870,9 +5881,16 @@ figure.figure.left img {
     width: 48.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    overflow: hidden;
   }
   .rm-small-wrapper {
     font-size: 200%;
+  }
+  .my-navbar a {
+    font-size: 20px;
+  }
+  .site-logo-text {
+    margin-right: 20px;
   }
 }
 /**
