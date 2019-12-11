@@ -10,11 +10,13 @@ Dagens bild - ormbunken
 
 Jag gillar ormbunkar för att de är gröna året om och är fina. Ormbunkar användes som maskmedel förr, för att få ut binnikemasken ur kroppen. Därav namnet "orm" som ursprungligen betydde "mask". Läran om ormbunksväxter kallas pteridologi.
 
-Man kan även använda ormbunksbladen till julgranar, se [Julpyssel](#pyssel), och dessutom fortplantar de sig via vatten, läs mer [här](#fortplantning).
+<!--more-->
 
-[FIGURE src=image/blogg/Dag1_ormbunke.jpg class="right w50" caption="Originalbild på ormbunke i jpg 1.2 MB."]
+Man kan även använda ormbunksbladen till julgranar, se [Julpyssel](#pyssel), och dessutom fortplantar de sig via vatten, läs mer [här](#fortplantning). Dagens bilder är bearbetade med 3D Paint och komprimerade med TinyJPG.
 
-[FIGURE src=image/blogg/compressed/Dag1_ormbunke.jpg class="left w50" caption="Komprimerad ormbunke i jpg 489.2 KB."]
+[FIGURE src=image/blogg/Dag1_ormbunke.jpg class="right w40" caption="Originalbild på ormbunke i jpg 1.2 MB."]
+
+[FIGURE src=image/blogg/compressed/Dag1_ormbunke.jpg class="left w40" caption="Komprimerad ormbunke i jpg 489.2 KB."]
 
 Jag har använt [TinyJPG](https://tinyjpg.com/) för att komprimera bilderna.
 
@@ -39,5 +41,3 @@ Ormbunkens fortplantningen sker med hjälp av vatten. När marken är täckt av 
 Ormbunkens fortplantningen sker med hjälp av vatten. När marken är täckt av vatten simmar spermierna från hanorganet till honorganet och befruktar äggcellen. Denna bildar efter celldelningar ett embryo som växer till en ny ormbunksplanta.
 
 Ormbunkens fortplantningen sker med hjälp av vatten. När marken är täckt av vatten simmar spermierna från hanorganet till honorganet och befruktar äggcellen. Denna bildar efter celldelningar ett embryo som växer till en ny ormbunksplanta.
-
-[FIGURE src=image/blogg/Dag1_ormbunkeKvadrat.png class="center" caption="Originalbild på ormbunke i jpg."]

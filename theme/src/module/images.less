@@ -24,11 +24,15 @@
 @fontSizeBody: 16px;
 
 // desinax-figure constants
-@maxContentWidth: 1100px;
+@maxContentWidth: 700px;
 
 // Enable style from the module and optinally add customized layout
 figure.figure {
     #desinax-figure.figure();
+}
+
+figure.figure.right img {
+    border-radius: 8px;
 }
 
 figure.asciinema {
@@ -42,20 +46,24 @@ figure.figure-codepen {
     #desinax-figure.codepen();
 }
 
+.meta-header {
+    color: @textColor;
+}
+
+.meta-footer, h3 {
+    clear: both;
+}
+
 // Enable style from the module and optinally add customized layout
 figure.figure {
     #desinax-figure.figure(@maxContentWidth);
 }
 
-// .w50 {
-//     width: @maxContentWidth / 2;
-// }
-
 &.left,
 &.right {
     @media screen {
         @media (max-width: round(@maxContentWidth * 2 / 3)) {
-            &.w50 {
+            &.w40 {
                 margin-left: 0;
                 margin-right: 0;
                 float: none;

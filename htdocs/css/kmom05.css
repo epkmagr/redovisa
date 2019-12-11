@@ -6083,6 +6083,9 @@ figure.figure.right {
     width: 366.66666667px;
   }
 }
+figure.figure.right img {
+  border-radius: 8px;
+}
 figure.asciinema {
   display: block;
 }
@@ -6095,6 +6098,13 @@ figure.asciinema .asciicast {
 figure.codepen,
 figure.figure-codepen {
   width: 100%;
+}
+.meta-header {
+  color: #89bad9;
+}
+.meta-footer,
+h3 {
+  clear: both;
 }
 figure.figure,
 figure.asciinema,
@@ -6139,7 +6149,7 @@ figure.figure.right {
   float: right;
   margin-left: 0.5em;
 }
-@media screen and (max-width: 963px) {
+@media screen and (max-width: 613px) {
   figure.figure.left.w67,
   figure.figure.right.w67 {
     margin-left: 0;
@@ -6148,10 +6158,10 @@ figure.figure.right {
   }
   figure.figure.left.w67 img,
   figure.figure.right.w67 img {
-    width: 962.5px;
+    width: 612.5px;
   }
 }
-@media screen and (max-width: 733px) {
+@media screen and (max-width: 467px) {
   figure.figure.left.w50,
   figure.figure.right.w50 {
     margin-left: 0;
@@ -6160,10 +6170,10 @@ figure.figure.right {
   }
   figure.figure.left.w50 img,
   figure.figure.right.w50 img {
-    width: 733.33333333px;
+    width: 466.66666667px;
   }
 }
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 438px) {
   figure.figure.left.w40,
   figure.figure.right.w40 {
     margin-left: 0;
@@ -6172,10 +6182,10 @@ figure.figure.right {
   }
   figure.figure.left.w40 img,
   figure.figure.right.w40 img {
-    width: 687.5px;
+    width: 437.5px;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 350px) {
   figure.figure.left.w33,
   figure.figure.right.w33 {
     margin-left: 0;
@@ -6184,10 +6194,10 @@ figure.figure.right {
   }
   figure.figure.left.w33 img,
   figure.figure.right.w33 img {
-    width: 550px;
+    width: 350px;
   }
 }
-@media screen and (max-width: 367px) {
+@media screen and (max-width: 233px) {
   figure.figure.left.w25,
   figure.figure.right.w25 {
     margin-left: 0;
@@ -6196,19 +6206,19 @@ figure.figure.right {
   }
   figure.figure.left.w25 img,
   figure.figure.right.w25 img {
-    width: 366.66666667px;
+    width: 233.33333333px;
   }
 }
-@media screen and (max-width: 733px) {
-  .left.w50,
-  .right.w50 {
+@media screen and (max-width: 467px) {
+  .left.w40,
+  .right.w40 {
     margin-left: 0;
     margin-right: 0;
     float: none;
   }
-  .left.w50 img,
-  .right.w50 img {
-    width: 733.33333333px;
+  .left.w40 img,
+  .right.w40 img {
+    width: 466.66666667px;
   }
 }
 .rm-small-wrapper {
