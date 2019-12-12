@@ -103,3 +103,11 @@ v5.0.2 (2019-12-12)
 * Updated the load time evaluation report.
 * Updated the blogg.
 * Added text to kmom05 report.
+
+v6.0.0 (2019-12-12)
+-------------------
+
+* Added first draft of report with design principles.
+* Added kmom06, kmom10 and the report above in the menus.
+* Added first draft of report with Kmom06 design elements.
+* Added first draft of report with Kmom06 design principles.
