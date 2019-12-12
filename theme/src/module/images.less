@@ -31,7 +31,8 @@ figure.figure {
     #desinax-figure.figure();
 }
 
-figure.figure.right img {
+figure.figure.right img,
+figure.figure.center img {
     border-radius: 8px;
 }
 
@@ -46,11 +47,16 @@ figure.figure-codepen {
     #desinax-figure.codepen();
 }
 
-.meta-header {
+.meta-header, .hljs {
     color: @textColor;
 }
 
-.meta-footer, h3 {
+code {
+    color: @bgColorHtml;
+    background-color: @textColor;
+}
+
+.meta-footer, h2, h3 {
     clear: both;
 }
 

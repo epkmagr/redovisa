@@ -9,12 +9,15 @@ published: "2019-12-10"
 Dagens bild - rött
 ==================================
 
-Jag gillar färgen röd. Färgen gör mig glad och symboliserar kärlek.
+[FIGURE src=image/blogg/Dag2_peugeot.jpg?w=150&h=100&crop-to-fit&area=0,25,0,20 class="right w25" caption="Rött"]
+
+Jag gillar färgen röd. Färgen gör mig glad och symboliserar kärlek. Jag gillar också min röda lilla bil.
 
 <!--more-->
 
-[FIGURE src=image/blogg/Dag2_bilLyse600.png class="right w40" caption="Bild 1. beskuren originalbild på billyse."]
 Röd är en av primärfärgerna i RYB-hjulet, som vi lärde oss om förra veckan. Dessutom är den en av sju spektralfärger och är en av de lägsta i frekvensområdet för synligt ljus.
+
+[FIGURE src=image/blogg/Dag2_bilLyse600.png?w=500 class="right w40" caption="Bild 1. beskuren originalbild på billyse."]
 
 | Image ID | Värde |
 |----------|--------|
@@ -25,15 +28,15 @@ Röd är en av primärfärgerna i RYB-hjulet, som vi lärde oss om förra veckan
 | Dimensioner original | 3264 x 1836 |
 | Dimensioner beskuren | 600 x 654 |
 | Storlek | 444 KB |
-| Bitdjup | 24 |
+| Bitdjup | 24 |  
 
-[FIGURE src=image/blogg/Dag2_bilLyse600.png?width=350 class="left" caption="Originalbild på billyse i png med fast bredd på 350 pixlar."]
+[FIGURE src=image/blogg/Dag2_bilLyse600.png?width=350 class="left" caption="Originalbild på billyse i png med fast bredd på 350 pixlar."]  
 
 Rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött
 [FIGURE src=image/blogg/Dag2_bilLyse600.png?width=350&sharpen&f=brightness,15 class="right w40" caption="Komprimerad på billyse i png med fast bredd på 350 pixlar och skarpare."]
 Rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött
 [FIGURE src=image/blogg/Dag2_bilLyse600.png?width=350&sharpen&f=brightness,15&f1=contrast,-10 class="left w40" caption="Komprimerad på billyse i png med fast bredd på 350 pixlar, skarpare och med mer kontrast."]
-Rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött
+Rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött rött 
 
 Peugeot
 -----------------------------------

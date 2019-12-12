@@ -6083,7 +6083,8 @@ figure.figure.right {
     width: 366.66666667px;
   }
 }
-figure.figure.right img {
+figure.figure.right img,
+figure.figure.center img {
   border-radius: 8px;
 }
 figure.asciinema {
@@ -6099,10 +6100,16 @@ figure.codepen,
 figure.figure-codepen {
   width: 100%;
 }
-.meta-header {
+.meta-header,
+.hljs {
   color: #89bad9;
 }
+code {
+  color: #101e26;
+  background-color: #89bad9;
+}
 .meta-footer,
+h2,
 h3 {
   clear: both;
 }

@@ -9,6 +9,8 @@ published: "2019-12-10"
 Dagens bild - backar och utsikt
 ==================================
 
+[FIGURE src=image/blogg/Dag3_trappaUpp400.png?w=100&h=150&crop-to-fit class="left w25" caption="Uppförsbacke"]
+
 Ibland känns det motigt i livet, att det blir för mycket och det upplevs som en [uppförsbacke](#backe). Sen kämpar du dig upp och då kommer belöningen, kanske i form av en fin [utsikt](#utsikt). Dagens bilder är bearbetade med 3D Paint and Gimp för att se om det är någon skillnad. Bilderna som är komprimerade är komprimerade med TinyJPG.
 
 <!--more-->
@@ -23,8 +25,6 @@ När du ska springa uppför en backe finns där massor med tips om hur du ska g�
 Backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe
 
 [FIGURE src=image/blogg/Dag3_trappa400.png?sharpen&f1=pixelate,2,2 class="left w40" caption="Samma backe som ovan fast lite pixlad."]
-
-Backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe
 
 Backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe backe
 

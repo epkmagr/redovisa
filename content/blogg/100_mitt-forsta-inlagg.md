@@ -8,18 +8,19 @@ published: "2019-12-10"
 Dagens bild - ormbunken
 ==================================
 
+[FIGURE src=image/blogg/Dag1_ormbunke.jpg?w=150&h=100&crop-to-fit&area=10,40,40,0 class="left w25" caption="Ormbunkar"]
+
 Jag gillar ormbunkar för att de är gröna året om och är fina. Ormbunkar användes som maskmedel förr, för att få ut binnikemasken ur kroppen. Därav namnet "orm" som ursprungligen betydde "mask". Läran om ormbunksväxter kallas pteridologi.
 
 <!--more-->
 
 Man kan även använda ormbunksbladen till julgranar, se [Julpyssel](#pyssel), och dessutom fortplantar de sig via vatten, läs mer [här](#fortplantning). Dagens bilder är bearbetade med 3D Paint och komprimerade med TinyJPG.
 
-[FIGURE src=image/blogg/Dag1_ormbunke.jpg class="right w40" caption="Originalbild på ormbunke i jpg 1.2 MB."]
+[FIGURE src=image/blogg/Dag1_ormbunke.jpg class="center" caption="Originalbild på ormbunke i jpg 1.2 MB."]
 
-[FIGURE src=image/blogg/compressed/Dag1_ormbunke.jpg class="left w40" caption="Komprimerad ormbunke i jpg 489.2 KB."]
+Jag har använt Cimage och [TinyJPG](https://tinyjpg.com/) för att komprimera bilderna.
 
-Jag har använt [TinyJPG](https://tinyjpg.com/) för att komprimera bilderna.
-
+[FIGURE src=image/blogg/compressed/Dag1_ormbunke.jpg class="center" caption="Komprimerad ormbunke i jpg 489.2 KB."]
 
 Julpyssel {#pyssel}
 -----------------------------------

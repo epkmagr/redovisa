@@ -96,3 +96,10 @@ v5.0.1 (2019-12-11)
 
 * Updated version of the blog with updated images.
 * Added measurements and updated the report about load time.
+
+v5.0.2 (2019-12-12)
+-------------------
+
+* Updated the load time evaluation report.
+* Updated the blogg.
+* Added text to kmom05 report.
