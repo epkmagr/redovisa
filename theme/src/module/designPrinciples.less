@@ -1,0 +1,43 @@
+// Module for kmom06 design principles
+
+article {
+    background-image: repeating-linear-gradient(to bottom, @bgColorHtml, #1A3240, @bgColorHtml 3em);
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+h1, h2, h3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  overflow: hidden;
+}
+
+.outer-wrap-footer {
+    background: linear-gradient(-45deg, @bgColorHtml, @bgColorFooter, @bgColorHtml);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

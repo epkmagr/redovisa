@@ -111,3 +111,14 @@ v6.0.0 (2019-12-12)
 * Added kmom06, kmom10 and the report above in the menus.
 * Added first draft of report with Kmom06 design elements.
 * Added first draft of report with Kmom06 design principles.
+
+v6.0.1 (2019-12-14)
+-------------------
+
+* Created a kmom06_designelement.less.
+* Updates the report with Kmom06 design elements.
+* Created a kmom06_designprinciples.less.
+* Updates the report with Kmom06 design principles.
+* Added first draft of kmom06 report text.
+* Created a new background image to the byline.
+* Changed responsiveness for the header.

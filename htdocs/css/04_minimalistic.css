@@ -5656,6 +5656,7 @@ table tr {
 }
 .site-logo-text-icon img {
   margin-left: 6px;
+  margin-top: 6px;
   transform: rotate(-25deg);
   border-radius: 10px;
 }
@@ -5810,7 +5811,7 @@ figure.figure.left img {
   .region-header-col-3 {
     display: inline;
     float: left;
-    width: 18.95833333%;
+    width: 15.625%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
     overflow: hidden;
@@ -5818,7 +5819,7 @@ figure.figure.left img {
   .region-header-col-2 {
     display: inline;
     float: left;
-    width: 78.95833333%;
+    width: 82.29166667%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
     overflow: hidden;
@@ -5837,6 +5838,31 @@ figure.figure.left img {
   }
   #rm-menu.rm-clicked a {
     font-size: 1em;
+  }
+}
+@media screen and (max-width: 960px) {
+  .rm-small-wrapper {
+    font-size: 200%;
+  }
+  .my-navbar a {
+    font-size: 20px;
+  }
+  .site-logo-text {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .rm-desktop {
+    display: none;
+  }
+  .region-header-col-1,
+  .region-header-col-3 {
+    display: inline;
+    float: left;
+    width: 48.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    overflow: hidden;
   }
   .region-main,
   .region-main.has-sidebar-left,
@@ -5857,40 +5883,6 @@ figure.figure.left img {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
-  }
-}
-@media screen and (max-width: 990px) {
-  .region-header-col-1,
-  .region-header-col-3 {
-    display: inline;
-    float: left;
-    width: 15.625%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-    overflow: hidden;
-  }
-}
-@media screen and (max-width: 890px) {
-  .rm-desktop {
-    display: none;
-  }
-  .region-header-col-1,
-  .region-header-col-3 {
-    display: inline;
-    float: left;
-    width: 48.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-    overflow: hidden;
-  }
-  .rm-small-wrapper {
-    font-size: 200%;
-  }
-  .my-navbar a {
-    font-size: 20px;
-  }
-  .site-logo-text {
-    margin-right: 20px;
   }
 }
 /**
