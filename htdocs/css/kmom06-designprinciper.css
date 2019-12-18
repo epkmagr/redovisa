@@ -5276,6 +5276,10 @@ h4 {
 table tr {
   border-bottom: 1px solid #89bad9;
 }
+p {
+  padding-left: 6px;
+  padding-right: 6px;
+}
 .info,
 .warning {
   padding: 0.5em;
@@ -5523,6 +5527,7 @@ table tr {
 .outer-wrap.outer-wrap-main,
 .outer-wrap.outer-wrap-footer {
   padding: 0 6px;
+  margin-top: 24px;
 }
 .region-main {
   display: inline;
@@ -6312,8 +6317,6 @@ tr:hover {
  */
 article {
   background-image: repeating-linear-gradient(to bottom, #101e26, #1A3240, #101e26 3em);
-  padding-left: 6px;
-  padding-right: 6px;
 }
 h1,
 h2,
@@ -6322,10 +6325,14 @@ h3 {
   animation-name: slidein;
   overflow: hidden;
 }
+.region-main .block {
+  background-image: url(http://www.student.bth.se/~mbfs17/dbwebb-kurser/design/me/redovisa/htdocs/img/theme/byline.png);
+}
 .outer-wrap-footer {
   background: linear-gradient(-45deg, #101e26, #325573, #101e26);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
+  border: 2px groove #89bad9;
 }
 @keyframes gradientBG {
   0% {

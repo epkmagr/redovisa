@@ -2,8 +2,6 @@
 
 article {
     background-image: repeating-linear-gradient(to bottom, @bgColorHtml, #1A3240, @bgColorHtml 3em);
-    padding-left: 6px;
-    padding-right: 6px;
 }
 
 h1, h2, h3 {
@@ -12,10 +10,15 @@ h1, h2, h3 {
   overflow: hidden;
 }
 
+.region-main .block {
+    background-image: url(http://www.student.bth.se/~mbfs17/dbwebb-kurser/design/me/redovisa/htdocs/img/theme/byline.png);
+}
+
 .outer-wrap-footer {
     background: linear-gradient(-45deg, @bgColorHtml, @bgColorFooter, @bgColorHtml);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
+    border: 2px groove @textColor;
 }
 
 @keyframes gradientBG {

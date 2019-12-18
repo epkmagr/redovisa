@@ -122,3 +122,10 @@ v6.0.1 (2019-12-14)
 * Added first draft of kmom06 report text.
 * Created a new background image to the byline.
 * Changed responsiveness for the header.
+
+v6.0.2 (2019-12-18)
+-------------------
+
+* Updated the reports and kmom06 report.
+* Small changes in the design.
+* Added a file to reach the blog on the report side.

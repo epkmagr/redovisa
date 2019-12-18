@@ -34,4 +34,4 @@ Kursen omfattar följande områden
 * Använda PHP-ramverk för att skapa och designa webbplats  
 * Sökmotoroptimering  
 
-[FIGURE src=image/house-before-after.jpg caption="Ett hus före och efter renovring - samma insida men snyggare fasad. Lite som att styla en hemsida, samma insida men utsidan kan göras snyggare och ändras efter tycke och smak!"]
+[FIGURE src=image/house-before-after.jpg class="center" caption="Ett hus före och efter renovring - samma insida men snyggare fasad. Lite som att styla en hemsida, samma insida men utsidan kan göras snyggare och ändras efter tycke och smak!"]
