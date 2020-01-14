@@ -29,7 +29,7 @@ Jag utgick ifrån matbutiker som finns i Karlskrona och föreslog några för ku
 2. [ICA Maxi Karlskrona](https://www.ica.se/butiker/maxi/karlskrona/maxi-ica-stormarknad-karlskrona-8917/start/)  
 3. [Willys](https://www.willys.se/)  
 4. [Hemköp](https://www.hemkop.se/)  
-5. [Liedl](https://www.lidl.se/)  
+5. [Lidl](https://www.lidl.se/)  
 
 Metod
 -----------------------

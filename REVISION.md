@@ -129,3 +129,15 @@ v6.0.2 (2019-12-18)
 * Updated the reports and kmom06 report.
 * Small changes in the design.
 * Added a file to reach the blog on the report side.
+
+v10.0.0 (2020-01-08)
+-------------------
+
+* Added the report of Uppgift 1 from kmom10.
+* Added the report of Uppgift 2 from kmom10.
+* Added images for the reports.
+
+v10.0.1 (2020-01-14)
+-------------------
+
+* Added the report of kmom10.
